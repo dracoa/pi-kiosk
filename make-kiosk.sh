@@ -48,3 +48,5 @@ sudo sed -i 's/@xscreensaver -no-splash/#@xscreensaver -no-splash/g' /home/pi/.c
 
 echo "@bash $KIOSKPATH" >> /home/pi/.config/lxsession/LXDE-pi/autostart
 
+sudo reboot
+
